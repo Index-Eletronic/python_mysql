@@ -34,7 +34,7 @@ c.close()
 #=====================================================
 '''
 
-#====Para fazer inserir no banco de dados=========
+#====Para fazer inserir no banco de dados CRUD=========
 # Executa o comando:
 c.execute("INSERT INTO alunos (id_aluno, nome, data_nascimento, endereco, cidade, estado, cpf) VALUES (DEFAUlT, 'João Pedro', '2000-01-01', 'Av das pedras, 123', 'Betim', 'MG', '12345678911')")
 
@@ -46,4 +46,3 @@ con.commit()
 # Finaliza a conexão
 con.close()
 #=====================================================
-
